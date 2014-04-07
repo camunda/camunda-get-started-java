@@ -7,6 +7,8 @@
   <process-archive name="loan-approval">
     <process-engine>default</process-engine>
     <resource>loan-approval.bpmn</resource>
+    <resource>request-loan.form</resource>
+    <resource>approve-loan.form</resource>
     <properties>
       <property name="isDeleteUponUndeploy">false</property>
       <property name="isScanForProcessDefinitions">true</property>
